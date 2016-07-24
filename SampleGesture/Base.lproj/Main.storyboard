@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SampleGesture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="dwG-69-mru">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="body.png" id="VfJ-za-D8Q">
+                                <rect key="frame" x="49" y="24" width="92" height="295"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uw.png" id="3Gu-05-Adp" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="71" y="98" width="46" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ao_1.png" id="BqC-hB-J19" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="333" y="94" width="67" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ao_2.png" id="xvN-fC-hv5" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="363" y="94" width="66" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ao_3.png" id="1M1-Um-3FU" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="414" y="94" width="54" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hair_1.png" id="55V-gD-NdB" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="333" y="24" width="45" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hair_3.png" id="f3Z-Nv-uZ5" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="365" y="24" width="62" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hair_2.png" id="CgO-kW-NNr" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="423" y="24" width="34" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quan_1.png" id="Gcm-m2-Um6" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="393" y="163" width="87" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quan_2.png" id="D10-nu-pNc" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="364" y="150" width="59" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quan_3.png" id="iHO-2M-uba" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="326" y="154" width="59" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tui_1.png" id="CGO-cv-NE8" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="512" y="71" width="36" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tui_3.png" id="1VF-Ak-jQQ" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="465" y="60" width="60" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kinh_1.png" id="2Bt-3A-OLx" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="273" y="182" width="32" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kinh_2.png" id="uYC-p2-7Ol" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="273" y="146" width="32" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kinh_3.png" id="YVI-yK-0po" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="273" y="164" width="32" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giay_1.png" id="4eG-bN-q2B" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="264" y="200" width="51" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giay_3.png" id="2T8-ZL-huf" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="264" y="230" width="51" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giay_2.png" id="y93-Wg-Goi" customClass="Item" customModule="SampleGesture" customModuleProvider="target">
+                                <rect key="frame" x="264" y="260" width="51" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="378"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ao_1.png" width="134" height="263"/>
+        <image name="ao_2.png" width="132" height="199"/>
+        <image name="ao_3.png" width="108" height="227"/>
+        <image name="background.png" width="1100" height="619"/>
+        <image name="body.png" width="183" height="589"/>
+        <image name="giay_1.png" width="102" height="43"/>
+        <image name="giay_2.png" width="114" height="52"/>
+        <image name="giay_3.png" width="102" height="33"/>
+        <image name="hair_1.png" width="90" height="170"/>
+        <image name="hair_2.png" width="67" height="65"/>
+        <image name="hair_3.png" width="115" height="144"/>
+        <image name="kinh_1.png" width="64" height="20"/>
+        <image name="kinh_2.png" width="64" height="20"/>
+        <image name="kinh_3.png" width="57" height="19"/>
+        <image name="quan_1.png" width="164" height="265"/>
+        <image name="quan_2.png" width="117" height="320"/>
+        <image name="quan_3.png" width="117" height="305"/>
+        <image name="tui_1.png" width="72" height="95"/>
+        <image name="tui_3.png" width="120" height="141"/>
+        <image name="uw.png" width="93" height="132"/>
+    </resources>
+</document>
